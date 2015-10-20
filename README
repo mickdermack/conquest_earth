@@ -1,0 +1,10 @@
+A little Lua program for extracting the WAD files from the 1997 Data Design Interactive game Conquest Earth.
+
+Usage: lua conquest_earth.lua <filename>
+Example: lua conquest_earth.lua C:\CONQUEST\DDI\DEV.WAD
+
+Before running it, create a directory named "output". That's where the extracted files go.
+
+Tested with Lua 5.3, should work on other versions.
+
+This program does not implement decompression of compressed files. You can use either QuickBMS or the DOS version of RNC ProPack (contained with the Amiga version) for that purpose.
